@@ -25,7 +25,7 @@ SECRET_KEY = 'oz)&c1c#l_mgl^mh*-9x9)80^dio#1o4cdkon27b5&gh(j$by='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mouad-firsttry.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['blackportf.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
