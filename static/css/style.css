@@ -1,0 +1,154 @@
+body{
+    background-color: #E5E5E5;
+}
+.section-1{
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.section-2{
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.navigation-bar{
+    background-color: #354955;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;   
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.hero{
+    background-color: #1f2428;
+    min-height: 70vh;
+    color: white;
+}
+#profile_pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.text-white{
+    color: white;
+    font-size: 80px;
+}
+.hero-content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.hero-content-intro{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.hero-content-subsection{
+    text-align: center;
+}
+.description{
+    font-size: 50px;
+}
+.slogen{
+    font-size: 25px;
+}
+.intro-name{
+    font-size: 100px;
+    
+    font-weight: 700;
+    
+}
+
+.project-thumbnail{
+    width: 100%;
+}
+.project-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.project-body{
+    
+    justify-content: flex-start;
+
+}
+
+.skills-container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+}
+.skills-wrapper{
+    margin: 2em;
+    margin-bottom: 2em;
+}
+.skill-tag{
+    background-color: #C4E7F2;
+    width: fit-content;
+    padding: 3px 20px;
+    border-radius: 5px;
+
+}
+.other-skills-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 auto;
+
+}
+.text-center{
+    text-align: center;
+}
+
+@media (max-width:900px){
+    .hero-content-intro{
+        flex-direction: column;
+    }
+
+    .project-wrapper{
+
+        grid-template-columns: 1fr ;
+
+        
+    }
+}
+/* Responsive part bellow or start here */
+@media (max-width:800px){
+    .hero-content{
+        width: 100%;
+    }
+}
+
+
+
+
+@media (max-width:600px){
+    
+    .skills-container{
+        width: 100%;
+    }
+
+   
+}
+
+
+@media (max-width:400px){
+
+
+    .skills-wrapper{
+        flex-flow: column;
+        
+    }
+}

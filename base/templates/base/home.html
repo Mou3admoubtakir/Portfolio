@@ -1,0 +1,102 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %} Home page {% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-content-intro">
+            <img src="{% static 'images/Mouadphoto.png' %}" id="profile_pic" alt="">
+            <h1 class="intro-name">Mouad <br> MOUBTAKIR</h1>
+        </div>
+        <div class="hero-content-subsection">
+            <h3 class="description">FullStack Developer</h3>
+            <p class="slogen">Etudiant en bts sio slam</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="container section-2">
+    <h4>My projects</h4>
+    <div class="project-wrapper">
+        <div class="project-column">
+            <img src="{% static 'images/project1.png' %}" alt="" width="400" height="200">
+            <div class="project-body">
+                <h5>Chatt app with Django, JavaScript,html,css</h5>
+            </div>
+        </div>
+
+        <div class="project-column">
+            <img src="{% static 'images/project2.png' %}" alt="" width="400" height="200">
+            <div class="project-body">
+                <h5>Ecommerce website using Django,html,css,JavaScript</h5>
+            </div>
+        </div>
+
+
+        <div class="project-column">
+            <img src="{% static 'images/project3.png' %}" alt="" width="400" height="200">
+            <div class="project-body">
+                <h5>Student manager using Django,html,css</h5>
+            </div>
+        </div>
+    </div>
+    <div class="about-wrapper">
+        <h4>More about me !</h4>
+        <p>My name is Mouad MOUBTAKIR, i am a student currently attending ESTYA UNIVERSITY in Paris. I have chosen bts
+            sio slam because i always loved coding...</p>
+    </div>
+</section>
+
+<section class="section-1">
+    <div class="skills-container">
+        <h3>My skills</h3>
+        <div class="skills-wrapper">
+            <h5>Python</h5>
+            <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its
+                high-level built in data structures, combined with dynamic typing and dynamic binding, make it very
+                attractive for Rapid Application Development, as well as for use as a scripting or glue language to
+                connect existing components together. Python's simple, easy to learn syntax emphasizes readability and
+                therefore reduces the cost of program maintenance. Python supports modules and packages, which
+                encourages program modularity and code reuse. The Python interpreter and the extensive standard library
+                are available in source or binary form without charge for all major platforms, and can be freely
+                distributed.
+            </p>
+        </div>
+        <div class="skills-wrapper">
+            <h5>Django</h5>
+            <p>Django is a high-level Python web framework that enables rapid development of secure and maintainable
+                websites. Built by experienced developers, Django takes care of much of the hassle of web development,
+                so you can focus on writing your app without needing to reinvent the wheel. It is free and open source,
+                has a thriving and active community, great documentation, and many options for free and paid-for
+                support.
+            </p>
+        </div>
+        <div class="skills-wrapper">
+            <h5>JavaScript</h5>
+            <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with
+                first-class functions. While it is most well-known as the scripting language for Web pages, many
+                non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+            </p>
+        </div>
+    </div>
+    <h3 class="text-center">Other more skills</h3>
+    <div class="other-skills-wrapper">
+
+        <div class="skill-tag">
+            <span>Jquery</span>
+        </div>
+        <div class="skill-tag">
+            <span>Bootstrap</span>
+        </div>
+        <div class="skill-tag">
+            <span>SQL</span>
+        </div>
+        <div class="skill-tag">
+            <span>Css</span>
+        </div>
+    </div>
+</section>
+{% endblock %}

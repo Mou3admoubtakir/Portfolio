@@ -1,0 +1,28 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %} veille page {% endblock %}
+
+{% block content %}
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Artice details page</h1>
+        </div>
+    </div>
+    <br>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="card mb-3">
+                <img src="{{article_detail.image}}" class="card-img-top" alt="..." width="400" height="400">
+                <div class="card-body">
+                <h5 class="card-title">{{article_detail.title}}</h5>
+                <p class="card-text">{{article_detail.description}}</p>
+                <p class="card-text"><small class="text-muted">{{article_detail.date}}</small></p>
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+{% endblock %}
