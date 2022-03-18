@@ -24,3 +24,8 @@ def article_details(request, id):
 def stage_page(request):
     context = {}
     return render(request, 'base/stage_page.html', context)
+
+
+def cv_page(request):
+    context = {}
+    return render(request, 'base/cv_page.html', context)
