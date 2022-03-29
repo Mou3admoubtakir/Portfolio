@@ -29,3 +29,8 @@ def stage_page(request):
 def cv_page(request):
     context = {}
     return render(request, 'base/cv_page.html', context)
+
+
+def page_pour_stage(request):
+    context = {}
+    return render(request, 'base/page_pour_stage.html', context)

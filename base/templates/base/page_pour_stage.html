@@ -1,0 +1,21 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block title %} Stages {% endblock %}
+
+{% block content %}
+<div class="container pt-3">
+    <div class="col-md-12 text-center">
+        <b>Attestation de présence en entreprise au cours de l'année 2022</b>
+        <embed src="{% static 'files/Attestation de stage - SIO 2022 - Mouad (1).pdf' %}" type="application/pdf" width="100%" height="600px">
+    </div>
+    <br>
+    <h3>Modifié le 29/03/2022</h3>
+    <div class="col-md-12 text-center">
+        <b>Attestation de présence en entreprise au cours de l'année 2021</b>
+        <embed src="{% static 'files/attestation_de_presence_en_entreprise (1).pdf' %}" type="application/pdf" width="100%" height="600px">
+    </div>
+    <br>
+    <h3>Modifié le 29/03/2022</h3>
+</div>
+{% endblock %}
