@@ -1,12 +1,23 @@
 {% extends 'base/base.html' %}
 {% load static %}
 
-{% block title %} Mon Cv {% endblock %}
+{% block title %} Réalisations professionnelles {% endblock %}
 
 {% block content %}
+
 <div class="container pt-3">
     <div class="col-md-12 text-center">
-        <b>Mon cv</b>
+        <b>Rapport du stage année 2020/2021</b>
+        <embed src="{% static 'files/rapport_de_stage.pdf' %}" type="application/pdf" width="100%" height="600px">
+    </div>
+    <br>
+    <div class="col-md-12 text-center">
+        <b>Rapport du stage année 2021/2022</b>
+        <embed src="{% static 'files/Rapportdestage2.pdf' %}" type="application/pdf" width="100%" height="600px">
+    </div>
+    <br>
+    <div class="col-md-12 text-center">
+        <b>Ainsi que mon cv ci-dessous</b>
         <embed src="{% static 'files/Mouad_MOUBTAKIR_updatecv.pdf' %}" type="application/pdf" width="100%" height="600px">
     </div>
     <br>
